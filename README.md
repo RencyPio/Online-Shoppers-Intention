@@ -4,20 +4,28 @@ This project predicts whether an e-commerce website visitor will make a purchase
 
 # Problem Statement
 Classify user sessions into:
-Purchase (1)
-No Purchase (0)
+* Purchase (1)
+* No Purchase (0)
 to help businesses improve decision-making.
 
 # Dataset
-Records: 12,330
-
+Records: 12,330.
 Includes features like page visits, durations, bounce rate, visitor type, and more.
 
 # Data Processing:
-Removed duplicates, Encoded categorical data, Feature scaling, Handled imbalance using SMOTE
+* Removed duplicates
+* Encoded categorical data
+* Feature scaling
+* Handled imbalance using SMOTE
 
 # Models Used:
-Logistic Regression, Random Forest, SVM, KNN, Decision Tree, Gradient Boosting, XGBoost
+* Logistic Regression
+* Random Forest
+* SVM
+* KNN
+* Decision Tree
+* Gradient Boosting
+* XGBoost
 
 # Best Model:
 Gradient Boosting gave the best performance with balanced accuracy and recall.
